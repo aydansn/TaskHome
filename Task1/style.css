@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0E182B;
+}
+
+main .box1 {
+  background-color: #15253F;
+  text-align: center;
+  margin: 100px 550px;
+  border-radius: 10px;
+}
+main .box1 .box2 {
+  padding: 20px 5px;
+}
+main .box1 .box2 .nese {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .box1 .box2 .nese .profil {
+  border-radius: 20px;
+  width: 10%;
+  height: 10%;
+  margin-top: 15px;
+  margin-left: 19px;
+  border: 1px solid white;
+}
+main .box1 .box2 .nese p span {
+  color: white;
+}
+main .box1 .box2 hr {
+  margin: 0px 20px;
+  color: rgb(100, 100, 100);
+}
+main .box1 .box2 img {
+  border-radius: 10px;
+  width: 90%;
+}
+main .box1 .box2 h2 {
+  text-align: start;
+  color: white;
+  padding: 5px 20px;
+  font-size: 20px;
+}
+main .box1 .box2 p {
+  text-align: start;
+  color: rgb(171, 167, 167);
+  padding: 5px 20px;
+  font-size: 15px;
+}
+main .box1 .box2 .creation {
+  text-align: start;
+  color: rgb(171, 167, 167);
+  padding: 15px 80px 0px 0px;
+  font-size: 15px;
+}
+main .box1 .box2 .text {
+  display: flex;
+}
+main .box1 .box2 .text .text-left {
+  color: rgb(171, 167, 167);
+  text-align: end;
+  padding: 5px 0px 10px 94px;
+  font-size: 15px;
+}
+main .box1 .box2 .text .text-left i {
+  font-size: 11px;
+}
+main .box1 .box2 .text .text-right {
+  color: aqua;
+  padding: 5px 20px;
+  font-size: 15px;
+}
